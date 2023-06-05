@@ -3,6 +3,8 @@ import UnitTestMain as utm
 
 class MyTestCase(unittest.TestCase):
     def test_my_functionAdd(self):
+        #self.assertTrue()
+        #self.assertFalse()
         self.assertEqual(utm.myfunctionAdd(2, 5), 7)
         self.assertEqual(utm.myfunctionAdd(2, 3), 5)
     def test_my_functionMul(self):
